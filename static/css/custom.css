@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Inconsolata:400,700|Just+Another+Hand|Luckiest+Guy|Permanent+Marker|Rock+Salt');
+
+/*
+font-family: 'Just Another Hand', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Anton', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rock Salt', cursive;
+*/
+
+/*h styles*/
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 60px;
+    color: #1adef7;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+h2 {
+    margin: 1px;
+    font-size: 28px;
+    text-decoration: underline;
+    font-family: 'Luckiest Guy', cursive;
+    color: #000000;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: #54b4eb;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #ffffff;
+}
+
+/*navbar*/
+
+.navbar {
+    background-image: linear-gradient(#4e3b3b, #903f3f 60%, #e60707);
+    border-bottom: 3px solid #000000;
+}
+
+.navbar-default .navbar-brand {
+    color: #1adef7;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.alert-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 30px;
+    color: #060606;
+    font-family: 'Luckiest Guy', cursive;
+    background-image: linear-gradient(#2bd432, #f7de00 60%, #24dbf3);
+    border: 3px solid #000000;
+
+}
+
+.introduction-container {
+    margin-top: 3em;
+    padding-bottom: 120px;
+    min-height: 25%;
+    background-image: url("../media/images/sunsetsk8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 3px solid #000000;
+}
+
+/*form*/
+
+form {
+    width: 50%;
+    padding-left: 10px;
+}
+
+/*footer*/
+
+footer {
+    /* margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ededed;
+    color: #a9a9a9; */
+    background-image: linear-gradient(#4e3b3b, #903f3f 60%, #e60707);
+    border-top: 3px solid #000000;
+    position:fixed;
+    width:100%;
+    margin:0 auto;
+}
+
+.footer-list a{  
+    color: #1adef7;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer-list li {
+    list-style-type: none;
+    padding:2px;
+}
+
+/*block content*/
+
+.block-content{
+    /* margin-top:25px;
+    margin-bottom:30px; */
+    min-height: calc(100vh - 374px);
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+.product {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+caption p {
+    word-wrap: break-word;
+}
+
+.row.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.panel-default {
+    border-color: transparent;
+    padding: 0 10px;
+}
+
+.panel-body {
+    height: 100%;
+    border: 5px solid #000000;
+
+}
+
+.product-description {
+    min-height: 40px;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 22px;
+}
