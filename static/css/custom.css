@@ -146,6 +146,14 @@ footer {
 .badge-warning[href] {
     background-color: #c67605;
 }
+.product-background {
+    width: 30%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+} 
 
 .product {
     background-size: contain;
