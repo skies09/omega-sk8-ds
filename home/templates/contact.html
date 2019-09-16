@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-sm-6'>
+            <ul class='contact-list'>
+                <h3>You can contact us by:</h3>
+                <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Phone: 00000 123456</li>
+                <li><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Email: email@example.com</li>
+                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Post: Street Name, Town, Postcode</li>
+            </ul>
+        </div>
+        <div class='col-sm-6'>
+            <div>
+                <h3 class='contact-heading uppercase text-center'>How can we help?</h3>
+            </div>
+            <div class="center-form">
+                <form onsubmit="sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required>
+                    <input type="email" name="emailaddress" class="form-control" id="email" placeholder="Email"
+                        required>
+                    <textarea name="projectsummary" class="form-control" id="projectsummary" rows="7"
+                        placeholder="Insert text here" required></textarea>
+                    <a type="submit" class="btn btn-info center-block">Send</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
