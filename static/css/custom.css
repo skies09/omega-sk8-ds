@@ -30,13 +30,13 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
-    color: #54b4eb;
+    color: #272a8a;
 }
 
 h5 {
     font-size: 14px;
     font-family: 'Luckiest Guy', cursive;
-    color: #ffffff;
+    color: #272a8a;
 }
 
 /*navbar*/
@@ -123,7 +123,21 @@ footer {
 .block-content{
     /* margin-top:25px;
     margin-bottom:30px; */
-    min-height: calc(100vh - 374px);
+    min-height: calc(100vh - 344px);
+}
+
+/*deliveries page*/
+
+.paragraph-header{
+font-size:18px;
+font-family: 'Luckiest Guy', cursive;
+text-decoration: underline;
+color: #272a8a;
+
+}
+
+.paragraph-content{
+
 }
 
 /*contact page*/
