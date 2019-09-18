@@ -118,6 +118,29 @@ footer {
     padding:2px;
 }
 
+.social-links {
+    text-align: right;
+    padding: 1em;
+
+}
+
+.social-links li a i {
+    width: 1em;
+    font-size: 26px;
+    text-align: center;
+    color: #1adef7;
+    text-shadow: 3px 3px 3px #000000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-right:1em;
+}
+
+.social-links li a i:hover {
+    background: #002966;
+}
+
 /*block content*/
 
 .block-content{
