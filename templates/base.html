@@ -9,9 +9,7 @@
     <title>Omega Skate</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    {% block head_js %} {% endblock head_js %}
+
 </head>
 
 
@@ -73,21 +71,25 @@
     <footer class='container-fluid'>
         <div class='footer-details row'>
             <div class='col-sm-6'>
-                    <ul class='footer-list'>
-                        <li><a href="{% url 'deliveries' %}">Deliveries & Returns</a></li>
-                        <!-- <li><a href="">Track Order</a></li> -->
-                        <li><a href="{% url 'contact' %}" >Contact Us</a></li>
-                    </ul>
+                <ul class='footer-list'>
+                    <li><a href="{% url 'deliveries' %}">Deliveries & Returns</a></li>
+                    <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                </ul>
             </div>
             <div class='col-sm-6'>
-                    <ul class='footer-list'>
-                        <li><a href="">Help</a></li>
-                        <!-- <li><a href="">Board Sizes</a></li> -->
-                        <li><a href="">Complete Setup Guide</a></li>
-                    </ul>
+                <ul class='footer-list'>
+                    <li><a href="{% url 'faqs' %}">Help</a></li>
+                    <li><a href="{% url 'setup' %}">Complete Setup Guide</a></li>
+                </ul>
             </div>
         </div>
     </footer>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% block head_js %} {% endblock head_js %}
 </body>
 
 </html>
