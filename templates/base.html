@@ -39,14 +39,13 @@
                     <li><a href="{% url 'registration' %}">Register</a></li>
                     <li><a href="{% url 'login' %}">Log In</a></li>
                     {% endif %}
-                    <!-- <li>
-                       
-                            <i class="fa fa-shipping-cart"></i>Cart
-                            {% if product_count > 0 %}
-                            <label class="badge badge-warning">{{ product_count }}</label>
-                            {% endif %}
+                    <li>
+                        <i class="fa fa-shipping-cart"></i>Cart
+                        {% if product_count > 0 %}
+                        <label class="badge badge-warning">{{ product_count }}</label>
+                        {% endif %}
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </div>
@@ -66,6 +65,25 @@
             </div>
         </div>
     </article>
+    <!--sale banner-->
+    <article class='alert-container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h2>50% Off for New Members. Sign Up Today!
+                    </br>Free Delivery!</h2>
+            </div>
+        </div>
+        </div>
+    </article>
+    <!--search bar-->
+    <div class="container">
+        <div class="display">
+            <form action="{% url 'search' %}" method="GET">
+                <input type="text" name="q">
+                <button type="search">Search</button>
+            </form>
+        </div>
+    </div>
     <div class="container block-content">
         <div class='content-wrapper'>
             {% block content %} {% endblock %}
