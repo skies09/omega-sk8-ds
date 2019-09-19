@@ -20,6 +20,7 @@ from accounts import urls as urls_accounts
 from home import urls as urls_home
 from products import urls as urls_products
 from cart import urls as urls_cart
+from checkout import urls as urls_checkout
 from search import urls as urls_search
 
 urlpatterns = [
@@ -29,5 +30,6 @@ urlpatterns = [
     url(r'^home/', include(urls_home)),
     url(r'^products/', include(urls_products)),
     url(r'^cart/', include(urls_cart)),
+    url(r'^checkout/', include(urls_checkout)),
     url(r'^search/', include(urls_search)),
 ]

@@ -142,6 +142,7 @@ footer {
     margin-bottom:30px; */
     min-height: calc(100vh - 344px);
     /* overflow: scroll; */
+    margin-bottom:5px;
 }
 
 
