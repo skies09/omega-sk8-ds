@@ -21,3 +21,7 @@ def faqs(request):
 def setup(request):
     """A view that displays the setup page"""
     return render(request, "setup.html")
+
+def thanks(request):
+    """A view that displays the thanks page"""
+    return render(request, "thanks.html")

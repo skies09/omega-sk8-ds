@@ -21,9 +21,9 @@
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required>
                     <input type="email" name="emailaddress" class="form-control" id="email" placeholder="Email"
                         required>
-                    <textarea name="projectsummary" class="form-control" id="projectsummary" rows="7"
+                    <textarea name="description" class="form-control" id="description" rows="7"
                         placeholder="Insert text here" required></textarea>
-                    <a type="submit" class="btn btn-info center-block">Send</a>
+                    <a type="submit" href="{% url 'thanks' %}" class="btn btn-info center-block">Send</a>
                 </form>
             </div>
         </div>
