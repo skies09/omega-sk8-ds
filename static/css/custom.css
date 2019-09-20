@@ -113,7 +113,7 @@ footer {
 }
 
 .social-links {
-    text-align: right;
+    text-align: center;
     padding: 1em;
 
 }
@@ -121,7 +121,6 @@ footer {
 .social-links li a i {
     width: 1em;
     font-size: 26px;
-    text-align: center;
     color: #1adef7;
     text-shadow: 3px 3px 3px #000000;
     transition: all 0.35s ease-in-out;

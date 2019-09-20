@@ -1,11 +1,5 @@
 from django.conf.urls import url, include
-from .views import home
-from .views import deliveries
-from .views import contact
-from .views import faqs
-from .views import setup
-from .views import thanks
-
+from .views import home, deliveries, contact, faqs, setup, thanks
 
 urlpatterns = [
 url(r'^home/', home, name="home"),
