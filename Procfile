@@ -1,0 +1,1 @@
+web: gunicorn sk8shop.wsgi:application
