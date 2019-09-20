@@ -1,1 +1,1 @@
-web: gunicorn sk8shop.wsgi:application
+web: gunicorn sk8.wsgi:application
