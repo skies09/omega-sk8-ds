@@ -123,12 +123,12 @@ Also contains social media links.
 3. Install the requirements with `sudo pip-r requirements.txt`
 4. Attempt to run project and get error message. Copy host name and add to "ALLOWED_HOSTS" in settings.py file.
 5. Setup of enviroment variables.
-* 'STRIPE_PUBLISHABLE', ''
-* 'STRIPE_SECRET', ''
-* 'DATABASE_URL', ''
-* 'SECRET_KEY', ''
-* 'AWS_ACCESS_KEY_ID', ''
-* 'AWS_SECRET_ACCESS_KEY', ''
+* 'STRIPE_PUBLISHABLE'
+* 'STRIPE_SECRET'
+* 'DATABASE_URL'
+* 'SECRET_KEY'
+* 'AWS_ACCESS_KEY_ID'
+* 'AWS_SECRET_ACCESS_KEY'
 6. Setup superuser with `python3 manage.py createsuperuser`
 7. Run `python3 manage.py runserver` and view in generated localhost URL.
 
