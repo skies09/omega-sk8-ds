@@ -37,22 +37,21 @@ To deploy to Heroku:
 
 |**Key**         |  **Value**   |
 |-------------|-----------------|
-|AWS_ACCESS_KEY_ID     |<Your AWS Access Key>        |
-|AWS_SECRET_ACCESS_KEY |<Your Secret AWS Access Key> |
-|DATABASE_URL          |<Your Database Url>          |
-|DISABLE_COLLECTSTATIC |1                            |
-|SECRET_KEY            |<Your Secret Key>            |
-|STRIPE_PUBLISHABLE    |<Your Stripe Publishable Key>|
-|STRIPE_SECRET         |<Your Stripe Secret Key      |
+|AWS_ACCESS_KEY_ID     |Your AWS Access Key        |
+|AWS_SECRET_ACCESS_KEY |Your Secret AWS Access Key |
+|DATABASE_URL          |Your Database Url          |
+|DISABLE_COLLECTSTATIC |1                          |
+|SECRET_KEY            |Your Secret Key            |
+|STRIPE_PUBLISHABLE    |Your Stripe Publishable Key|
+|STRIPE_SECRET         |Your Stripe Secret Key     |
 
 6. In Heroku, deploy master branch.
 ###### The site is now deployed.
 
 ---
 
-### Description
+## Description
 
----
 
 Omega Skate is an online skateboard shop completely focused to skateboards.
 Anyone can purchase complete skateboard setups as well as skateboard parts such as skateboard decks, skateboard trucks, skateboard wheels and accessories for skateboards and skateboarding.
