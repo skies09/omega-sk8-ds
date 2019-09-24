@@ -3,11 +3,11 @@
 ***
 
 [![Build Status](https://travis-ci.org/skies09/omega-sk8-ds.svg?branch=master)](https://travis-ci.org/skies09/omega-sk8-ds)
----
+
 
 ## Deployment  : https://omega-sk8-ds.herokuapp.com/
 
----
+
 
 #### Running the project
 
@@ -16,14 +16,14 @@
 3. Install the requirements with `sudo pip-r requirements.txt`
 4. Attempt to run project and get error message. Copy host name and add to "ALLOWED_HOSTS" in settings.py file.
 5. Setup of enviroment variables.
-..* 'STRIPE_PUBLISHABLE', ''
-..* 'STRIPE_SECRET', ''
-..* 'DATABASE_URL', ''
-..* 'SECRET_KEY', ''
-..* 'AWS_ACCESS_KEY_ID', ''
-..* 'AWS_SECRET_ACCESS_KEY', ''
-6. Setup superuser.
-###### Run `python3 manage.py runserver` and view in generated localhost URL.
+⋅⋅* 'STRIPE_PUBLISHABLE', ''
+⋅⋅* 'STRIPE_SECRET', ''
+⋅⋅* 'DATABASE_URL', ''
+⋅⋅* 'SECRET_KEY', ''
+⋅⋅* 'AWS_ACCESS_KEY_ID', ''
+⋅⋅* 'AWS_SECRET_ACCESS_KEY', ''
+6. Setup superuser with `python3 manage.py createsuperuser`
+7. Run `python3 manage.py runserver` and view in generated localhost URL.
 
 #### Heroku Deployment
 
@@ -34,7 +34,8 @@ To deploy to Heroku:
 3. Create Heroku app.
 4. From Heroku, click deploy from github repository.
 5. Set Config Vars in Heroku as follows:
-|Key         |  Value   |
+
+|**Key**         |  **Value**   |
 |-------------|-----------------|
 |AWS_ACCESS_KEY_ID     |<Your AWS Access Key>        |
 |AWS_SECRET_ACCESS_KEY |<Your Secret AWS Access Key> |
@@ -49,7 +50,7 @@ To deploy to Heroku:
 
 ---
 
-## Description
+### Description
 
 ---
 
@@ -57,19 +58,18 @@ Omega Skate is an online skateboard shop completely focused to skateboards.
 Anyone can purchase complete skateboard setups as well as skateboard parts such as skateboard decks, skateboard trucks, skateboard wheels and accessories for skateboards and skateboarding.
 
 
-## UX
+### UX
 
 ---
 
 The website has been designed similar to other skateshops, however the main difference is the categories on other sites contain other recreational sporting goods or clothing. Omega Skate focuses solely on skateboards!
 
-## Features
+### Features
 
 ---
 
 ### How the website is setup
 
----
 
 The body of the website is set up into
 
@@ -84,13 +84,13 @@ Includes website banner and website title.
 
 #### Section content
 
-The table below shows what is includes in the block content section on each page 
+The table below shows what is includes in the block content section on each page.
 
 |Page         |  Block content|
 |-------------|-----------------|
 |Home         |This page shows links to the different categories of products. There is also a banner and search function.|
 |Categories   |Each of the category pages show the different products relating to the category. These products include descriptions, price and option to purchase/ add to cart.|
-|Deliveries + Returns |This page contains information regarding deliveries and returns.|
+|Deliveries and Returns |This page contains information regarding deliveries and returns.|
 |Contact Us   |The contact page contains information on ways the store can be contacted. It also has a form that can be used to message the store.|   
 |Help         |The help page contains frequently asked questions. The answers to the questions can be viewed by clicking on the plus icon.|
 |Complete Setup Guide |The complete setup guide is an information page which contains details to buying the right size of skateboard. It also contains information for if customers wish to custom build their own skateboard to their specification.|
@@ -102,7 +102,7 @@ The table below shows what is includes in the block content section on each page
 #### Footer
 
 Contains links to pages:
-* Deliveries + Returns
+* Deliveries and Returns
 * Contact page
 * Help page
 * Complete skateboard setup guide
