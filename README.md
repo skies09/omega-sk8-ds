@@ -8,50 +8,7 @@
 ## Deployment  : https://omega-sk8-ds.herokuapp.com/
 
 
-
-#### Running the project
-
-1. Clone the git repository.
-2. CD into cloned repository.
-3. Install the requirements with `sudo pip-r requirements.txt`
-4. Attempt to run project and get error message. Copy host name and add to "ALLOWED_HOSTS" in settings.py file.
-5. Setup of enviroment variables.
-⋅⋅* 'STRIPE_PUBLISHABLE', ''
-⋅⋅* 'STRIPE_SECRET', ''
-⋅⋅* 'DATABASE_URL', ''
-⋅⋅* 'SECRET_KEY', ''
-⋅⋅* 'AWS_ACCESS_KEY_ID', ''
-⋅⋅* 'AWS_SECRET_ACCESS_KEY', ''
-6. Setup superuser with `python3 manage.py createsuperuser`
-7. Run `python3 manage.py runserver` and view in generated localhost URL.
-
-#### Heroku Deployment
-
-To deploy to Heroku:
-
-1. Create requirements.txt file.
-2. Create Procfile.
-3. Create Heroku app.
-4. From Heroku, click deploy from github repository.
-5. Set Config Vars in Heroku as follows:
-
-|**Key**         |  **Value**   |
-|-------------|-----------------|
-|AWS_ACCESS_KEY_ID     |Your AWS Access Key        |
-|AWS_SECRET_ACCESS_KEY |Your Secret AWS Access Key |
-|DATABASE_URL          |Your Database Url          |
-|DISABLE_COLLECTSTATIC |1                          |
-|SECRET_KEY            |Your Secret Key            |
-|STRIPE_PUBLISHABLE    |Your Stripe Publishable Key|
-|STRIPE_SECRET         |Your Stripe Secret Key     |
-
-6. In Heroku, deploy master branch.
-###### The site is now deployed.
-
----
-
 ## Description
-
 
 Omega Skate is an online skateboard shop completely focused to skateboards.
 Anyone can purchase complete skateboard setups as well as skateboard parts such as skateboard decks, skateboard trucks, skateboard wheels and accessories for skateboards and skateboarding.
@@ -155,3 +112,47 @@ Also contains social media links.
 * urllib3==1.24.2
 ---
 
+## Deployment  : https://omega-sk8-ds.herokuapp.com/
+
+
+
+#### Running the project
+
+1. Clone the git repository.
+2. CD into cloned repository.
+3. Install the requirements with `sudo pip-r requirements.txt`
+4. Attempt to run project and get error message. Copy host name and add to "ALLOWED_HOSTS" in settings.py file.
+5. Setup of enviroment variables.
+⋅⋅* 'STRIPE_PUBLISHABLE', ''
+⋅⋅* 'STRIPE_SECRET', ''
+⋅⋅* 'DATABASE_URL', ''
+⋅⋅* 'SECRET_KEY', ''
+⋅⋅* 'AWS_ACCESS_KEY_ID', ''
+⋅⋅* 'AWS_SECRET_ACCESS_KEY', ''
+6. Setup superuser with `python3 manage.py createsuperuser`
+7. Run `python3 manage.py runserver` and view in generated localhost URL.
+
+#### Heroku Deployment
+
+To deploy to Heroku:
+
+1. Create requirements.txt file.
+2. Create Procfile.
+3. Create Heroku app.
+4. From Heroku, click deploy from github repository.
+5. Set Config Vars in Heroku as follows:
+
+|**Key**         |  **Value**   |
+|-------------|-----------------|
+|AWS_ACCESS_KEY_ID     |The AWS Access Key        |
+|AWS_SECRET_ACCESS_KEY |The Secret AWS Access Key |
+|DATABASE_URL          |The Database Url          |
+|DISABLE_COLLECTSTATIC |1                         |
+|SECRET_KEY            |The Secret Key            |
+|STRIPE_PUBLISHABLE    |The Stripe Publishable Key|
+|STRIPE_SECRET         |The Stripe Secret Key     |
+
+6. In Heroku, deploy master branch.
+###### The site is now deployed.
+
+---
