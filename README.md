@@ -1,5 +1,4 @@
 # **Omega Skate**
-
 ***
 
 [![Build Status](https://travis-ci.org/skies09/omega-sk8-ds.svg?branch=master)](https://travis-ci.org/skies09/omega-sk8-ds)
@@ -13,16 +12,17 @@
 Omega Skate is an online skateboard shop completely focused to skateboards.
 Anyone can purchase complete skateboard setups as well as skateboard parts such as skateboard decks, skateboard trucks, skateboard wheels and accessories for skateboards and skateboarding.
 
+---
 
 ### UX
 
----
+The website has been designed similar to other skateshops, however the main difference is the categories on other sites contain other recreational sporting goods or clothing. 
 
-The website has been designed similar to other skateshops, however the main difference is the categories on other sites contain other recreational sporting goods or clothing. Omega Skate focuses solely on skateboards!
+Omega Skate focuses solely on skateboards!
+
+---
 
 ### Features
-
----
 
 ### How the website is setup
 
@@ -112,7 +112,8 @@ Also contains social media links.
 * urllib3==1.24.2
 ---
 
-## Deployment  : https://omega-sk8-ds.herokuapp.com/
+## Deployment  : 
+An online demo of the site can be found here: https://omega-sk8-ds.herokuapp.com/
 
 
 
