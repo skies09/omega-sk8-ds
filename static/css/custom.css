@@ -62,9 +62,10 @@ h5 {
 .dropdown-menu{
   background-color:  #00bcd4;
   top:35%;
+  margin:6px;
 }
 
-.glyphicon{
+.navbar .glyphicon{
  font-size:25px;
  color:  #00bcd4;
  padding-top:15px;
@@ -122,8 +123,8 @@ form {
 /*footer*/
 
 footer {
-    background-image: linear-gradient(#4e3b3b, #903f3f 60%, #e60707);
-    border-top: 3px solid #000000;
+    /* background-image: linear-gradient(#4e3b3b, #903f3f 60%, #e60707);
+    border-top: 3px solid #000000; */
     position:absolute;
     width:100%;
     margin:0 auto;
@@ -204,8 +205,9 @@ form {
 /*faqs page*/
 
 .plus-btn{
-    background-color: #1adef7;
+    background-color: #ffffff00;
     float:right;
+    border: none;
 }
 
 .questions{
