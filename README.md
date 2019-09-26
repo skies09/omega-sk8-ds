@@ -31,12 +31,12 @@ The body of the website is set up into
 
 #### Navigation Bar
 
-Includes the website __brand__ along with register and login options if the user/customer is not logged in, or profile and logout option if user is logged in.
+Contains a search bar at top left. Also includes the website __brand__. The user icon when clicked displays register and login options if the user/customer is not logged in. When the customer is logged in, the user icon displays the profile page. There is also a log out option.
 A cart icon is also present and displays cart quantity if products have been added to the cart.
 
-#### Introduction Container
+#### Category Banner
 
-Includes website banner and website title.
+This banner contains links to all the categories.
 
 #### Section content
 

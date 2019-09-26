@@ -64,6 +64,18 @@
 
     </div>
 
+    <!--Category Banner-->
+    <div class="row">
+        <div class="category-banner col-xs-12">
+            <div class="col-xs-2 col-xs-offset-1"><a
+                    href="{% url 'product-filter' category='Completes' %}">Completes</a></div>
+            <div class="col-xs-2"><a href="{% url 'product-filter' category='Decks' %}">Decks</a></div>
+            <div class="col-xs-2"><a href="{% url 'product-filter' category='Trucks' %}">Trucks</a></div>
+            <div class="col-xs-2"><a href="{% url 'product-filter' category='Wheels' %}">Wheels</a></div>
+            <div class="col-xs-2"> <a href="{% url 'product-filter' category='Accessories' %}">Accessories</a></div>
+        </div>
+    </div>
+
     <!--introduction-->
     <!-- <article class='introduction-container'>
         <div class='row'>

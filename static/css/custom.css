@@ -6,8 +6,8 @@ h1 {
     text-align: center;
     font-family: 'Rock Salt', cursive;
     font-size: 60px;
-    color: #1adef7;
-    text-shadow: 6px 6px 6px #000000;
+    color: #000000;
+    text-shadow: 6px 6px 6px #2ab0c1;
 }
 
 h2 {
@@ -46,28 +46,30 @@ h5 {
 }
 
 .navbar .navbar-brand {
-    color: #1adef7;
-    text-shadow: 3px 3px 3px #000000;
+    color: #24dbf3;
+    text-shadow: 4px 4px 4px #000000;
     font-size: 40px;
     font-family: 'Permanent Marker', cursive;
 }
 
 .nav-item {
-    color: #ffffff;
+    color: #000000;
+    text-shadow: 2px 2px 2px #ffffff;
     font-size: 18px;
     font-family: 'Permanent Marker', cursive;
     margin:5px;
 }
 
 .dropdown-menu{
-  background-color:  #00bcd4;
+  background-color:  #2ab0c1;
   top:35%;
   margin:6px;
 }
 
 .navbar .glyphicon{
  font-size:25px;
- color:  #00bcd4;
+ color:  #24dbf3;
+ text-shadow: 2px 2px 2px #000000;
  padding-top:15px;
  padding-left: 10px;
 }
@@ -78,7 +80,7 @@ h5 {
     font-size: 10px;
     color: #060606;
     font-family: 'Luckiest Guy', cursive;
-    background-image: #24dbf3;
+    background-image: #2ab0c1;
 
 }
 
@@ -89,6 +91,14 @@ h5 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+.category-banner a{
+    color: #000000;
+    text-shadow: 3px 3px 3px #2ab0c1;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
 }
 
 /*search bar*/
@@ -131,8 +141,8 @@ footer {
 }
 
 .footer-list a{  
-    color: #1adef7;
-    text-shadow: 3px 3px 3px #000000;
+    color: #000000;
+    text-shadow: 3px 3px 3px #2ab0c1;
     font-size: 16px;
     font-family: 'Permanent Marker', cursive;
 }
@@ -152,8 +162,8 @@ footer {
 .social-links li a i {
     width: 1em;
     font-size: 26px;
-    color: #1adef7;
-    text-shadow: 3px 3px 3px #000000;
+    color: #000000;
+    text-shadow: 3px 3px 3px #2ab0c1;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
