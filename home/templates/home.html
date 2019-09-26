@@ -2,8 +2,8 @@
 
 {% block content %}
 
-    <!--banner-->
-    <!-- <article class='alert-container'>
+<!--banner-->
+<!-- <article class='alert-container'>
             <div class='row'>
                 <div class='col-xs-12'>
                     <h2>Number One Dedicated Skateboard Shop!
@@ -12,8 +12,8 @@
             </div>
             </div>
         </article> -->
-        <!--search bar-->
-        <!-- <div class="container">
+<!--search bar-->
+<!-- <div class="container">
             <div class="display">
                 <form action="{% url 'search' %}" method="GET">
                     <input type="text" name="q">
@@ -22,46 +22,41 @@
             </div>
         </div> -->
 <div class="row row-flex">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-        <div class="panel-body">
+    <div class="col-xs-12">
+        <div class='complete-image-container category-panel'>
             <a href="{% url 'product-filter' category='Completes' %}">
-                <div><img src="/static/media/images/completes.jpg" class="product-background"></div>
-                <h3>Completes</h3>
+                <h2>Completes</h2>
             </a>
         </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-        <div class="panel-body">
+    <div class="col-xs-12">
+        <div class='deck-image-container category-panel'>
             <a href="{% url 'product-filter' category='Decks' %}">
-                <div><img src="/static/media/images/decks.jpg" class="product-background"></div>
-                <h3>Decks</h3>
+                <h2>Decks</h2>
             </a>
         </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-        <div class="panel-body">
+    <div class="col-xs-12">
+        <div class='truck-image-container category-panel'>
             <a href="{% url 'product-filter' category='Trucks' %}">
-                <div><img src="/static/media/images/trucks.jpg" class="product-background"></div>
-                <h3>Trucks</h3>
+                <h2>Trucks</h2>
             </a>
         </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 col-md-offset-2 display panel panel-default">
-        <div class="panel-body">
+    <div class="col-xs-12">
+        <div class='wheel-image-container category-panel'>
             <a href="{% url 'product-filter' category='Wheels' %}">
-                <div><img src="/static/media/images/skate-wheels.jpg" class="product-background"></div>
-                <h3>Wheels</h3>
+                <h2>Wheels</h2>
             </a>
         </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-3 col-sm-6 col-md-4 col-md-offset-0 display panel panel-default">
-        <div class="panel-body">
-            <a href="{% url 'product-filter' category='Accessories' %}">
-                <div><img src="/static/media/images/accessories.jpg" class="product-background"></div>
-                <h3>Accessories</h3>
-            </a>
+    <div class="col-xs-12">
+            <div class='accessories-image-container category-panel'>
+                <a href="{% url 'product-filter' category='Accessories' %}">
+                    <h2>Accessories</h2>
+                </a>
         </div>
     </div>
-    
+
 </div>
 {% endblock %}
