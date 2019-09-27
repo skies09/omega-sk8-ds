@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from products.models import Product
 
 # Create your views here.
 def home(request):
@@ -25,3 +26,7 @@ def setup(request):
 def thanks(request):
     """A view that displays the thanks page"""
     return render(request, "thanks.html")
+
+def product_filter(request, category):
+    products = Product.objects.filter(category=category)
+    return render(request, "products.html", {"products": products})
