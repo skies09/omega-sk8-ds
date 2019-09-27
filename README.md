@@ -38,6 +38,10 @@ A cart icon is also present and displays cart quantity if products have been add
 
 This banner contains links to all the categories.
 
+#### Brand Carousel
+
+This carousel slides through images of different skateboard brands.
+
 #### Section content
 
 The table below shows what is includes in the block content section on each page.
