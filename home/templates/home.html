@@ -12,15 +12,29 @@
             </div>
             </div>
         </article> -->
-<!--search bar-->
-<!-- <div class="container">
-            <div class="display">
-                <form action="{% url 'search' %}" method="GET">
-                    <input type="text" name="q">
-                    <button type="search">Search</button>
-                </form>
+<div class="container">
+    <div id="brand-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="/static/media/images/element.jpg">
             </div>
-        </div> -->
+            <div class="item">
+                <img src="/static/media/images/thrasher.jpg">
+            </div>
+            <div class="item">
+                <img src="/static/media/images/independent.jpg">
+            </div>
+            <div class="item">
+                <img src="/static/media/images/vans.jpg">
+            </div>
+            <div class="item">
+                <img src="/static/media/images/plan-b2.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="row row-flex">
     <div class="col-xs-12">
         <div class='complete-image-container category-panel'>
@@ -51,10 +65,10 @@
         </div>
     </div>
     <div class="col-xs-12">
-            <div class='accessories-image-container category-panel'>
-                <a href="{% url 'product-filter' category='Accessories' %}">
-                    <h2>Accessories</h2>
-                </a>
+        <div class='accessories-image-container category-panel'>
+            <a href="{% url 'product-filter' category='Accessories' %}">
+                <h2>Accessories</h2>
+            </a>
         </div>
     </div>
 

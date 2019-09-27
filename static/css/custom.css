@@ -187,6 +187,18 @@ footer {
 
 /*home page*/
 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    line-height: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:150px;
+    width:auto;
+    margin-top:5px;
+}
+
+
+
 .category-panel{
     margin-top:5px;
     border: 3px solid #000000;
