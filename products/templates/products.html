@@ -5,10 +5,12 @@
     {% for product in products %}
     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4">
         <div class="panel-body">
+
+                <img src='/static/media/images/complete-sk8board-background1.jpg'>
             <a href="{% url 'product-detail' product.id %}">
-                <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ product.image }}')"></div>
-                <h5>{{ product.name }}</h5>
-                <p>£{{ product.price }}</p>
+                <!-- <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ product.image }}')"></div> -->
+                <p>{{ product.name }}</p>
+                <strong><p class='product-price'>£{{ product.price }}</p></strong>
             </a>
         </div>
     </div>

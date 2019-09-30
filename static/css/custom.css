@@ -332,10 +332,6 @@ td{
     width:23em;
 }
 
-
-
-
-
 /*products*/
 
 .row.row-flex {
@@ -357,28 +353,56 @@ td{
     margin: 0 auto;
 }
 
-.product-description {
-    min-height: 40px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 12px;
-    word-wrap: break-word;
+.product-image{
+    width: 150px;
+    height: 150px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.product-price{
+    font-size: 16px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #000000; 
 }
 
 /*product detail page*/
 
+.single-product{
+    margin-top:25px;
+}
+
+.product-name{
+    font-size: 22px;
+    font-family: 'Luckiest Guy', cursive; 
+    text-align: center;
+    color:  #000000;
+    text-shadow: 2px 2px 2px #24dbf3;
+}
+
 .product-description {
     padding-top:2em;
-    min-height: 40px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 12px;
+    font-size: 16px;
 }
 
-.product-price{
-    padding-top:2em;
-    padding-bottom:2em;
+.btn-info{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    background: #24dbf3;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
+img{
+    width: 150px;
+    height: 150px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 

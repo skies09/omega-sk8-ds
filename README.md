@@ -80,6 +80,7 @@ Also contains social media links.
 * Connect a skate blog.
 * Add an about page which shows the owners of the skate shop, who are skating enthusiasts.
 * Add an order tracking page.
+* Add a star rating system to the products.
 ---
 
 ### Expansion strategy
