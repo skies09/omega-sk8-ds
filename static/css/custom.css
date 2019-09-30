@@ -122,9 +122,9 @@ h5 {
     margin:5px;
     text-align: center;
     font-size: 1em;
-    font-family: 'Luckiest Guy', cursive;
-    background: #000000;
-    color:#24dbf3;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid #24dbf3;
+    color:#000000;
 }
 
 /*form*/
@@ -197,8 +197,6 @@ footer {
     margin-top:5px;
 }
 
-
-
 .category-panel{
     margin-top:5px;
     border: 3px solid #000000;
@@ -257,6 +255,38 @@ footer {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+/*about page*/
+
+.about-us{
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+    padding-bottom:25px;
+    border-bottom: 1px solid #00bcd463;
+}
+
+.about-us-header{
+    padding-top:20px;
+    font-size:18px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    color: #000000; 
+}
+.meet-team{
+    border-top: 1px solid #00bcd463;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.meet-team-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:170px;
+    width:auto;
+    border: 2px solid #000000;
 }
 
 /*deliveries page*/
@@ -379,7 +409,7 @@ td{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     color:  #000000;
-    text-shadow: 2px 2px 2px #2ab0c1;
+
 }
 
 .product-description {
@@ -388,12 +418,11 @@ td{
     font-size: 16px;
 }
 
-.btn-info{
+.info-btn{
     text-align: center;
-    
     font-family: 'Permanent Marker', cursive;
-    background: #000000;
-    color:#24dbf3;
+    border: 1px solid #24dbf3;
+    color:#000000;
 }
 
 /*cart page*/
@@ -414,8 +443,8 @@ td{
     text-align: center;
     font-size: 1em;
     font-family: 'Permanent Marker', cursive;
-    background: #000000;
-    color:#24dbf3;
+    border:1px solid #24dbf3;
+    color:#000000;
     
 }
 
@@ -440,13 +469,7 @@ td{
 }
 
 
-img{
-    width: 150px;
-    height: 150px;  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 

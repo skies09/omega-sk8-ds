@@ -5,6 +5,10 @@ def home(request):
     """A view that displays the home page"""
     return render(request, "home.html")
 
+def about(request):
+    """A view that displays the about page"""
+    return render(request, "about.html")
+
 def deliveries(request):
     """A view that displays the deliveries page"""
     return render(request, "deliveries.html")
