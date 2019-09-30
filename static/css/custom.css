@@ -140,6 +140,7 @@ footer {
     position:absolute;
     width:100%;
     margin:0 auto;
+    border-top: 1px solid #00bcd463;
 }
 
 .footer-list a{  
@@ -430,6 +431,12 @@ td{
     font-size: 1em;
     font-family: 'Permanent Marker', cursive;
     text-align: left;   
+}
+
+/*checkout section*/
+
+#payment-form{
+    padding-top:25px;
 }
 
 
