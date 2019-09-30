@@ -122,10 +122,9 @@ h5 {
     margin:5px;
     text-align: center;
     font-size: 1em;
-    color: #ffffff;
     font-family: 'Luckiest Guy', cursive;
-    background: #24dbf3;
-    text-shadow: 2px 2px 2px #000000;
+    background: #000000;
+    color:#24dbf3;
 }
 
 /*form*/
@@ -363,8 +362,8 @@ td{
 
 
 .product-price{
-    font-size: 16px;
-    font-family: 'Luckiest Guy', cursive;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
     color: #000000; 
 }
 
@@ -374,12 +373,12 @@ td{
     margin-top:25px;
 }
 
-.product-name{
-    font-size: 22px;
-    font-family: 'Luckiest Guy', cursive; 
+.single-product-name{
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     color:  #000000;
-    text-shadow: 2px 2px 2px #24dbf3;
+    text-shadow: 2px 2px 2px #2ab0c1;
 }
 
 .product-description {
@@ -390,9 +389,47 @@ td{
 
 .btn-info{
     text-align: center;
+    
+    font-family: 'Permanent Marker', cursive;
+    background: #000000;
+    color:#24dbf3;
+}
+
+/*cart page*/
+
+.cart-product-name{
+    font-size: 1em;
     font-family: 'Luckiest Guy', cursive;
-    background: #24dbf3;
-    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    color:  #000000;
+}
+.input-group{
+    margin-bottom:5px;
+    margin-top:5px;
+    max-width:50%;
+}
+
+.input-group-addon{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    background: #000000;
+    color:#24dbf3;
+    
+}
+
+.total-section{
+    padding-bottom:15px;
+    border-top: 1px solid #00bcd463;
+    border-bottom: 1px solid #00bcd463;
+}
+
+.cart-total{
+    color: #000000;
+    text-shadow: 2px 2px 2px #2ab0c1;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: left;   
 }
 
 

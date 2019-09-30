@@ -6,13 +6,13 @@
 <div class="row row-flex">
     {% for item in cart_items %}
     
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-display">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4">
         
         <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"></div>
       <!--  <img class="img-product" src="/media/{{ item.product.image }}">-->
         <div class="caption">
-            <h3>{{ item.product.name }}</h3>
-            <p class='product-price'>{{ item.product.price }}</p>
+            <p class='cart-product-name'>{{ item.product.name }}</p>
+            <p class='product-price'>£{{ item.product.price }}</p>
             
                 
                 <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
@@ -25,17 +25,17 @@
                             <div class="input-group-addon">{{item.quantity}}</div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Amend</button>
+                    <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
                 </form>
             </p>
         </div>
     </div>
     {% endfor %}
 </div>
-<div class="row">
-    <p>Total</p>
-    <p><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>{{ total }}</p>
-    <a href="{% url 'checkout' %}" class="btn btn-success" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
+<div class="row total-section">
+    <p class='cart-total'>Total</p>
+    <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ total }}</p>
+    <a href="{% url 'checkout' %}" class="btn btn-info" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
 </div>
 
 {% endblock %}

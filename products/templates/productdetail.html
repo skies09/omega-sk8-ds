@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class='col-xs-12 col-md-6'>
-        <p class='product-name'>{{ product.name }}</p>
+        <p class='single-product-name'>{{ product.name }}</p>
         
         <p class='product-price'>£{{ product.price }}</p>
         <form method="post" action="{% url 'add_to_cart' product.id %}">
