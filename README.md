@@ -50,10 +50,12 @@ The table below shows what is includes in the block content section on each page
 |-------------|-----------------|
 |Home         |This page shows links to the different categories of products. There is also a banner and search function.|
 |Categories   |Each of the category pages show the different products relating to the category. These products include descriptions, price and option to purchase/ add to cart.|
+|About Us |This page contains infomation regarding the owners of Omega Skate.|
 |Deliveries and Returns |This page contains information regarding deliveries and returns.|
 |Contact Us   |The contact page contains information on ways the store can be contacted. It also has a form that can be used to message the store.|   
 |Help         |The help page contains frequently asked questions. The answers to the questions can be viewed by clicking on the plus icon.|
 |Complete Setup Guide |The complete setup guide is an information page which contains details to buying the right size of skateboard. It also contains information for if customers wish to custom build their own skateboard to their specification.|
+|Skate Blog   |This links to a skate blog.|
 |Profile      |The profile page contains the users email address.|
 |Cart         |The cart page shows all the items in the cart with the total for the items and a checkout option. There is also an option to amend the products in the cart. |
 |Checkout     |The checkout page shows the cart items followed by a form to fill in to submit payment for the items.|
@@ -77,8 +79,6 @@ Also contains social media links.
 #### Features left to implement
 * A live chat feature to reduce delay in customer service and potentially boost sales.
 * Use of discount or promo codes in checkout.
-* Connect a skate blog.
-* Add an about page which shows the owners of the skate shop, who are skating enthusiasts.
 * Add an order tracking page.
 * Add a star rating system to the products.
 ---

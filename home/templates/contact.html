@@ -1,4 +1,14 @@
 {% extends 'base.html' %}
+{% load static from staticfiles %}
+{% block head_js %}
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_tt1oAuAhoKJQisFm2yB3f");
+   })();
+</script>
+<script type="text/javascript" src="{% static 'js/sendEmail.js' %}"></script>
+{% endblock %}
 
 {% block content %}
 <div class='container-fluid'>

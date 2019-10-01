@@ -12,7 +12,7 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
             alert('Your message has not been sent');
-            window.location ="{% url 'thanks' %}";
+            
         }
    );
            
