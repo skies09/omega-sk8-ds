@@ -8,19 +8,19 @@
     <div id="brand-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="item active">
-                <img src= "url('{{ MEDIA_URL }}images/independent.jpg')">
+                <img src= '{{ MEDIA_URL }}images/independent.jpg'>
             </div>
             <div class="item">
-                <img src="/media/images/thrasher.jpg">
+                <img src= '{{ MEDIA_URL }}images/thrasher.jpg'>
             </div>
             <div class="item">
-                <img src="/media/images/element.jpg">
+                <img src= '{{ MEDIA_URL }}images/element.jpg'>
             </div>
             <div class="item">
-                <img src="/media/images/vans.jpg">
+                <img src= '{{ MEDIA_URL }}images/vans.jpg'>
             </div>
             <div class="item">
-                <img src="/media/images/plan-b2.jpg">
+                <img src= '{{ MEDIA_URL }}images/plan-b2.jpg'>
             </div>
         </div>
     </div>
@@ -29,35 +29,36 @@
 
 <div class="row row-flex">
     <div class="col-xs-12">
-        <div class='complete-image-container category-panel'>
+        <div class='category-panel' style="background-image: url('{{ MEDIA_URL }}images/complete-sk8board-background1.jpg')">
             <a href="{% url 'product-filter' category='Completes' %}">
                 <h2>Completes</h2>
             </a>
         </div>
     </div>
     <div class="col-xs-12">
-        <div class='deck-image-container category-panel'>
+        <div class='category-panel' style="background-image: url('{{ MEDIA_URL }}images/sk8board-deck-background1.jpg')">
+           
             <a href="{% url 'product-filter' category='Decks' %}">
                 <h2>Decks</h2>
             </a>
         </div>
     </div>
     <div class="col-xs-12">
-        <div class='truck-image-container category-panel'>
+        <div class='category-panel' style="background-image: url('{{ MEDIA_URL }}images/sk8board-trucks-background1.jpg')">
             <a href="{% url 'product-filter' category='Trucks' %}">
                 <h2>Trucks</h2>
             </a>
         </div>
     </div>
     <div class="col-xs-12">
-        <div class='wheel-image-container category-panel'>
+        <div class='category-panel' style="background-image: url('{{ MEDIA_URL }}images/sk8board-wheels-background1.jpeg')">
             <a href="{% url 'product-filter' category='Wheels' %}">
                 <h2>Wheels</h2>
             </a>
         </div>
     </div>
     <div class="col-xs-12">
-        <div class='accessories-image-container category-panel'>
+        <div class='category-panel' style="background-image: url('{{ MEDIA_URL }}images/sk8-accessories-background.jpg')">
             <a href="{% url 'product-filter' category='Accessories' %}">
                 <h2>Accessories</h2>
             </a>
