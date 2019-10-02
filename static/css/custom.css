@@ -195,18 +195,16 @@ footer {
     margin-top:5px;
 }
 
-.category-panel{
-    margin-top:5px;
+.category-panel {
+    margin-top: 10px;
     border: 3px solid #000000;
-    height:150px;
-    width:100%;
+    height: 150px;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 
 /*about page*/
 
@@ -325,6 +323,18 @@ td{
     padding:40px;
 }
 
+.post-image{
+    width: 150px;
+    height: 150px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
 /*products*/
 
 .row.row-flex {
@@ -337,14 +347,6 @@ td{
     height: 100%;
 }
 
-.product {
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-}
 
 .product-image{
     width: 150px;
@@ -352,6 +354,10 @@ td{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -399,7 +405,7 @@ td{
 .input-group{
     margin-bottom:5px;
     margin-top:5px;
-    max-width:80%;
+    max-width:95%;
 }
 
 .input-group-addon{
