@@ -11,4 +11,5 @@ def all_products(request):
 def product_detail(request, pk):
     products = get_object_or_404(Product, pk=pk)
     return render(request, "productdetail.html", {"product": products})
-   
+
+

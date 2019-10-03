@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% load static from staticfiles %}
 {% load bootstrap_tags %}
 
 {% block content %}
@@ -7,8 +6,9 @@
     {% for item in cart_items %}
 
     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4">
-        <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"></div>
-        <!--  <img class="img-product" src="/media/{{ item.product.image }}">-->
+        <div class="product-image" style="background-image: url('{{ MEDIA_URL }}{{ product.image }}')"></div>
+
+
         <div class="caption">
             <p class='cart-product-name'>{{ item.product.name }}</p>
             <p class='product-price'>£{{ item.product.price }}</p>

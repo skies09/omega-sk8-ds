@@ -324,8 +324,8 @@ td{
 }
 
 .post-image{
-    width: 150px;
-    height: 150px; 
+    width: auto;
+    height: 250px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -333,7 +333,6 @@ td{
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 
 /*products*/
 
@@ -357,7 +356,6 @@ td{
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-
 }
 
 
@@ -373,17 +371,26 @@ td{
     margin-top:25px;
 }
 
+.single-product-image{
+    width: auto;
+    height: 250px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .single-product-name{
     font-size: 28px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Luckiest Guy', cursive;
     text-align: center;
     color:  #000000;
-
 }
 
 .product-description {
     padding-top:2em;
-    font-family: 'Permanent Marker', cursive;
     font-size: 16px;
 }
 

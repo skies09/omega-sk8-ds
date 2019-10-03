@@ -9,15 +9,9 @@ $(document).ready(function () {
         $(thisAnswer).slideToggle(500);
 
     });
+
 });
 
 
 
 
-function openForm() {
-    document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-}

@@ -80,7 +80,7 @@ Also contains social media links.
 * A live chat feature to reduce delay in customer service and potentially boost sales.
 * Use of discount or promo codes in checkout.
 * Add an order tracking page.
-* Add a star rating system to the products.
+* Add a star rating system to the products along with review options.
 ---
 
 ### Expansion strategy
