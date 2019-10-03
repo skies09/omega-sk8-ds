@@ -162,3 +162,11 @@ To deploy to Heroku:
 ###### The site is now deployed.
 
 ---
+
+### Acknowledgements
+Products taken from:
+* surfdome.com
+* noteshop.co.uk
+* skatehut.com
+
+---
