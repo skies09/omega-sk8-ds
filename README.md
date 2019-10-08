@@ -64,10 +64,12 @@ The table below shows what is includes in the block content section on each page
 #### Footer
 
 Contains links to pages:
+* About us
 * Deliveries and Returns
 * Contact page
 * Help page
 * Complete skateboard setup guide
+* Skate Blog
 
 Also contains social media links.
 *Please note the social links are empty links until set up.*
@@ -81,6 +83,8 @@ Also contains social media links.
 * Use of discount or promo codes in checkout.
 * Add an order tracking page.
 * Add a star rating system to the products along with review options.
+* A wishlist option
+* Dropdowns for multiple sizes of decks.
 ---
 
 ### Expansion strategy

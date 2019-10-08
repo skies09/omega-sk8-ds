@@ -16,6 +16,23 @@
 
 
 <body>
+<!--chatbot-->
+    <div class="open-button" onclick="openForm()">Chat</div>
+    <div class="chat-popup" id="myForm">
+        <form action="#" class="form-container">
+            <h5>How can I help?</h5>
+            <div class='section'>
+                <main>
+                </main>
+                <div id="last"></div>
+            </div>
+            <div id="command">
+                <input class='askbar' placeholder="Ask something ..." type="text" />
+                <button class="btn info-btn" id='askbtn'>Ask</button>
+                <button class='btn info-btn' onclick="closeForm()">Close</button>
+            </div>
+        </form>
+    </div>
 
     <div class='introduction-container'  style="background-image: url('{{ MEDIA_URL }}images/sunsetsk8.jpg')">
         <!--search bar-->
@@ -76,6 +93,7 @@
         </div>
     </div>
 
+
     {% if messages %}
     <div class="alert alert-success">
         <div class="messages">
@@ -120,6 +138,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/chatbot.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     {% block head_js %} {% endblock head_js %}
