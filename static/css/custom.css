@@ -81,7 +81,6 @@ h5 {
     color: #060606;
     font-family: 'Luckiest Guy', cursive;
     background-image: #2ab0c1;
-
 }
 
 .introduction-container {
@@ -91,17 +90,27 @@ h5 {
     -o-background-size: cover;
 }
 
-.category-banner{
+.navbar-banner{
     padding-bottom:15px;
     border-bottom: 1px solid #00bcd463;
+    display:flex;
 }
 
-.category-banner a{
+.navbar-banner a{
     color: #000000;
     text-shadow: 2px 2px 2px #2ab0c1;
     font-size: 1em;
     font-family: 'Permanent Marker', cursive;
     text-align: left;
+}
+
+.navbar-toggle{
+    background-color: black;
+    margin-right:500px;
+    margin-left:15px;
+}
+.icon-bar{
+    background-color:#2ab0c1;
 }
 
 /*search bar*/
