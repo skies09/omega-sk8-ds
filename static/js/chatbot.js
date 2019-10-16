@@ -16,6 +16,8 @@ const Evaluate = expression => {
 //Answers
 const Answers = {
     "help": "What are you looking for?",
+    "dont know": "Then I cannot help.",
+
 
 };
 
@@ -52,7 +54,6 @@ const Answer = (Main, Text) => {
         addAnswer(Main, Notfound);
     }
 };
-
 const addQuestion = (Main, text) => {
     Main.innerHTML += `
         <div class="row">

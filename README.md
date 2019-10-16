@@ -52,7 +52,7 @@ The table below shows what is includes in the block content section on each page
 |Categories   |Each of the category pages show the different products relating to the category. These products include descriptions, price and option to purchase/ add to cart.|
 |About Us |This page contains infomation regarding the owners of Omega Skate.|
 |Deliveries and Returns |This page contains information regarding deliveries and returns.|
-|Contact Us   |The contact page contains information on ways the store can be contacted. It also has a form that can be used to message the store.|   
+|Contact Us   |The contact page contains information on ways the store can be contacted. It also has a form that can be used to message the store. |   
 |Help         |The help page contains frequently asked questions. The answers to the questions can be viewed by clicking on the plus icon.|
 |Complete Setup Guide |The complete setup guide is an information page which contains details to buying the right size of skateboard. It also contains information for if customers wish to custom build their own skateboard to their specification.|
 |Skate Blog   |This links to a skate blog.|

@@ -103,6 +103,10 @@ h5 {
     font-family: 'Permanent Marker', cursive;
     text-align: left;
 }
+.navbar-banner li{
+    padding-left:30px;
+    padding-right: 30px;
+}
 
 .navbar-toggle{
     background-color: black;
@@ -191,6 +195,12 @@ footer {
 .block-content{
     min-height: calc(100vh - 344px);
     margin-bottom:5px;
+}
+
+/*profile page*/
+
+.profile-email{
+    padding:20px;
 }
 
 /*home page*/
