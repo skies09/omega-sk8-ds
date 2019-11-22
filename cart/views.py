@@ -1,10 +1,17 @@
 from django.shortcuts import render, redirect, reverse
+from django.views.decorators.http import require_http_methods
+from django.contrib import messages
+from decimal import Decimal
+from .models import Coupon
+from .forms import CouponApplyForm
+from django.utils import timezone
 
 
 # Create your views here.
 def view_cart(request):
+    coupon_form = CouponApplyForm()
     """A View that renders the cart contents page"""
-    return render(request, "cart.html")
+    return render(request, "cart.html", {'coupon_form':coupon_form})
 
 
 def add_to_cart(request, id):
@@ -37,4 +44,20 @@ def adjust_cart(request, id):
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
 
+
+@require_http_methods(["GET", "POST"])
+def coupon_apply(request):
+    now = timezone.now()
+    coupon_form = CouponApplyForm(request.POST)
+    if coupon_form.is_valid():
+        code = coupon_form.cleaned_data['code']
+    try:
+        coupon = Coupon.objects.get(code=code, active=True)
+        request.session['coupon_id'] = coupon.id
+        messages.success(request, 'Coupon applied')
+    except Coupon.DoesNotExist:
+        request.session['coupon_id'] = None
+        messages.warning(request, 'Coupon not accepted')
+    else:
+        return redirect('view_cart')
 
