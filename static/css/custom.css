@@ -75,12 +75,14 @@ h5 {
 }
 
 
-.alert-container {
+.sale-banner p{
     text-align: center;
-    font-size: 10px;
-    color: #060606;
-    font-family: 'Luckiest Guy', cursive;
-    background-image: #2ab0c1;
+    font-size:18px;
+    color:#000000;
+    text-shadow: 2px 2px 2px #24dbf3;
+    font-family: 'Permanent Marker', cursive;
+    padding:5px;
+    border-bottom: 1px solid #00bcd463;
 }
 
 .introduction-container {
@@ -473,22 +475,21 @@ td{
     font-family: 'Permanent Marker', cursive;
     border:1px solid #24dbf3;
     color:#000000;
-    
 }
 
 .total-section{
-    padding-bottom:15px;
-    border-top: 1px solid #00bcd463;
-    border-bottom: 1px solid #00bcd463;
+    padding:15px;
+    padding-left: 35px;
 }
 
-.cart-total{
+.total-section p{
     color: #000000;
     text-shadow: 2px 2px 2px #2ab0c1;
     font-size: 1em;
     font-family: 'Permanent Marker', cursive;
     text-align: left;   
 }
+
 
 /*checkout section*/
 
