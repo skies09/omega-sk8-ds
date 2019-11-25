@@ -19,7 +19,7 @@ def cart_contents(request):
     cart_items = []
     total = 0
     product_count = 0
-    new_total = 0
+    coupon_total = 0
 
     try:
         code = Coupon.objects.get(id=coupon_id)
@@ -33,13 +33,13 @@ def cart_contents(request):
         
         if code != None:
             discount = (code.discount/Decimal('100'))*total
-            new_total = total - discount
+            coupon_total = total - discount
         else:
-            new_total = total
+            coupon_total = total
         product_count += quantity
         cart_items.append({'id': id, 'quantity': quantity, 'product': product})
         
     coupon_form = CouponApplyForm(request.POST)
         
         
-    return {'cart_items': cart_items, 'total': total, 'product_count': product_count, 'code': code, 'coupon_id': coupon_id, 'new_total': new_total, 'CouponApplyForm': CouponApplyForm}
+    return {'cart_items': cart_items, 'total': total, 'product_count': product_count, 'code': code, 'coupon_id': coupon_id, 'coupon_total': coupon_total, 'CouponApplyForm': CouponApplyForm}

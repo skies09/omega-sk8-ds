@@ -45,16 +45,16 @@
             aria-hidden="true"></span>Checkout</a>
 </div>
 
-
+{% if code %}
 <div class="row total-section">
     <p class='cart-total'>Total</p>
     <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ total }}</p>
     <p class='cart-total'>Discount</p>
     <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>{{ code.discount }}%</p>
     <p class='cart-total'>Total after Discount</p>
-    <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ new_total|floatformat:"2" }}</p>
+    <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ coupon_total|floatformat:"2" }}</p>
 </div>
-
+{% endif %}
 
 
 {% endblock %}

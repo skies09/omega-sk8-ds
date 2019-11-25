@@ -58,6 +58,7 @@ def coupon_apply(request):
     except Coupon.DoesNotExist:
         request.session['coupon_id'] = None
         messages.warning(request, 'Coupon not accepted')
+        return redirect ('view_cart')
     else:
         return redirect('view_cart')
 
