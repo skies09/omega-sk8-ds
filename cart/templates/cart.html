@@ -26,8 +26,11 @@
                 </div>
                 <button type="submit" class="btn info-btn"><span class="glyphicon glyphicon-edit"
                         aria-hidden="true"></span></button>
+                <form action="{%url 'remove' item.product.id %}">
+                    <button type="submit" class="btn info-btn"><span class="glyphicon glyphicon-trash"
+                            aria-hidden="true"></span></button>
+                </form>
             </form>
-            </p>
         </div>
     </div>
     {% endfor %}
@@ -50,8 +53,7 @@
             <p>Discount -
                 <span class="glyphicon glyphicon-pound" aria-hidden="true"></span>{{ code.discount }}%</p>
             <p>Total after Discount</p>
-            <p><span class="glyphicon glyphicon-pound"
-                    aria-hidden="true"></span>£{{ coupon_total|floatformat:"2" }}</p>
+            <p><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ coupon_total|floatformat:"2" }}</p>
             {% endif %}
             <a href="{% url 'checkout' %}" class="btn info-btn" role="button"><span class="glyphicon glyphicon-ok-sign"
                     aria-hidden="true"></span>Checkout</a>
