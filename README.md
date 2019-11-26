@@ -62,8 +62,8 @@ The table below shows what is includes in the block content section on each page
 |Complete Setup Guide |The complete setup guide is an information page which contains details to buying the right size of skateboard. It also contains information for if customers wish to custom build their own skateboard to their specification.|
 |Skate Blog   |This links to a skate blog.|
 |Profile      |The profile page contains the users email address.|
-|Cart         |The cart page shows all the items in the cart with the total for the items and a checkout option. There is also an option to amend the products in the cart. |
-|Checkout     |The checkout page shows the cart items followed by a form to fill in to submit payment for the items.|
+|Cart         |The cart page shows all the items in the cart with the total for the items and a checkout option. There is an option to amend the products in the cart and an option to remove the item completely from the cart. There is also form to use/submit coupons. |
+|Checkout     |The checkout page shows the cart items followed by a form to fill in to submit payment for the items. Payments are managed with Stripe.|
 
 
 #### Footer
@@ -92,7 +92,7 @@ Also contains social media links.
 
 ### Expansion strategy
 * Add skate shoes category.
-* Add clothing category.
+* Add skate clothing category.
 
 ---
 
@@ -176,4 +176,5 @@ Products taken from:
 * noteshop.co.uk
 * skatehut.com
 
+#### A special thanks to the mentors and the CodeInstitue Slack Community for all their help.
 ---
