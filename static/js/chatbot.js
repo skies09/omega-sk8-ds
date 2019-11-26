@@ -1,3 +1,12 @@
+const commands = [
+    "help me",
+    "coupon",
+    "still stuck",
+    "what is the free grip tape?",
+];
+
+const ListThings = commands => "You can try asking the following : <br>" + commands.join("<br/>");
+
 const Evaluate = expression => {
     try {
         if (isLegal(expression)) {
@@ -15,6 +24,8 @@ const Evaluate = expression => {
 
 //Answers
 const Answers = {
+    "list" : ListThings(commands),
+    "ask" : ListThings(commands),
     "hi": "hello",
     "hello": "hi",
     "help": "What are you looking for?",
@@ -30,11 +41,8 @@ const Answers = {
     "grip tape": "grip tape is found in the accessories page",
     "delivery": "information regarding delivery can be found on the delivery and returns page, the link is at the bottom of the page",
     "returns": "information regarding returns can be found on the delivery and returns page, the link is at the bottom of the page",
-
-    
-
-
-
+    "coupon": "Try using coupon Chat",
+    "still stuck": "Please feel free to contact us through our contact page.",
 };
 
 const Notfound = "Sorry, I cannot answer that.";
@@ -73,7 +81,7 @@ const Answer = (Main, Text) => {
 const addQuestion = (Main, text) => {
     Main.innerHTML += `
         <div class="row">
-            <div class="chat question">${text}</div>
+            <div class="chat-question">${text}</div>
         </div>
     `;
 }
@@ -81,7 +89,7 @@ const addQuestion = (Main, text) => {
 const addAnswer = (Main, text) => {
     Main.innerHTML += `
     <div class="row">
-        <div class="chat answer">${text}</div>
+        <div class="chat-answer">${text}</div>
     </div>
     `;
 }
