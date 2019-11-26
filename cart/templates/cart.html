@@ -11,7 +11,8 @@
 
         <div class="caption">
             <p class='cart-product-name'>{{ item.product.name }}</p>
-            <p class='product-price'>£{{ item.product.price }}</p>
+            <p class='product-price'><span class="glyphicon glyphicon-gbp"
+                aria-hidden="true"></span>{{ item.product.price }}</p>
 
 
             <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
@@ -40,22 +41,24 @@
         <div class="coupon-form">
             <form action="{% url 'apply' %}" method='POST'>
                 {% csrf_token %} {{ coupon_form | as_bootstrap }}
-                <button type='submit' class='btn info-btn'>Coupon</button>
+                <button type='submit' class='btn info-btn'><span class="glyphicon glyphicon-tag"
+                    aria-hidden="true"></span>Coupon</button>
             </form>
         </div>
     </div>
     <div class='col-sm-6'>
         <div class="row total-section">
             <p>Total</p>
-            <p><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ total }}</p>
+            <p><span class="glyphicon glyphicon-gbp"
+                aria-hidden="true"></span>{{ total }}</p>
 
             {% if code %}
-            <p>Discount -
-                <span class="glyphicon glyphicon-pound" aria-hidden="true"></span>{{ code.discount }}%</p>
+            <p>Discount -{{ code.discount }}%</p>
             <p>Total after Discount</p>
-            <p><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ coupon_total|floatformat:"2" }}</p>
+            <p><span class="glyphicon glyphicon-gbp"
+                aria-hidden="true"></span>{{ coupon_total|floatformat:"2" }}</p>
             {% endif %}
-            <a href="{% url 'checkout' %}" class="btn info-btn" role="button"><span class="glyphicon glyphicon-ok-sign"
+            <a href="{% url 'checkout' %}" class="btn info-btn" role="button"><span class="glyphicon glyphicon-credit-card"
                     aria-hidden="true"></span>Checkout</a>
         </div>
     </div>

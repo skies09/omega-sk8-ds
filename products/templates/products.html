@@ -9,7 +9,8 @@
                 <div class="product-image" style="background-image: url('{{ MEDIA_URL }}{{ product.image }}')"></div>
                 <p>{{ product.name }}</p>
                 <strong>
-                    <p class='product-price'>£{{ product.price }}</p>
+                    <p class='product-price'><span class="glyphicon glyphicon-gbp"
+                        aria-hidden="true"></span>{{ product.price }}</p>
                 </strong>
             </a>
         </div>

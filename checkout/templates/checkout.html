@@ -21,7 +21,8 @@
 
                 <div class="caption">
                     <p class='cart-product-name'>{{ item.product.name }}</p>
-                    <p class='product-price'>£{{ item.product.price }}</p>
+                    <p class='product-price'><span class="glyphicon glyphicon-gbp"
+                        aria-hidden="true"></span>{{ item.product.price }}</p>
                 </div>
             </div>
         </div>
@@ -29,7 +30,8 @@
 </div>
 <div class="row total-section">
     <p class='cart-total'>Total</p>
-    <p class='cart-total'><span class="glyphicon glyphicon-pound" aria-hidden="true"></span>£{{ coupon_total|floatformat:"2" }}</p>
+    <p class='cart-total'><span class="glyphicon glyphicon-gbp"
+        aria-hidden="true"></span>{{ coupon_total|floatformat:"2" }}</p>
 </div>
 
 
