@@ -10,7 +10,7 @@
 ## Description
 
 Omega Skate is an online skateboard shop completely focused to skateboards.
-Anyone can purchase complete skateboard setups as well as skateboard parts such as skateboard decks, skateboard trucks, skateboard wheels and accessories for skateboards and skateboarding.
+Anyone can purchase complete skateboard setups as well as skateboard parts such as decks, trucks, wheels and accessories for skateboards and skateboarding.
 
 ---
 
@@ -18,7 +18,7 @@ Anyone can purchase complete skateboard setups as well as skateboard parts such 
 
 The website has been designed similar to other skateshops, however the main difference is the categories on other sites contain other recreational sporting goods or clothing. 
 
-Omega Skate focuses solely on skateboards!
+Omega Skate focuses solely on skateboards! For the skateboarding enthusiasts.
 
 ---
 
@@ -27,7 +27,7 @@ Omega Skate focuses solely on skateboards!
 ### How the website is setup
 
 
-The body of the website is set up into
+The body of the website is set up into:
 
 #### Navigation Bar
 
@@ -42,6 +42,10 @@ This banner contains links to all the categories.
 
 This carousel slides through images of different skateboard brands.
 
+#### Sale / Promotion Banner
+
+Displays promotions and coupon discounts.
+
 #### Section content
 
 The table below shows what is includes in the block content section on each page.
@@ -49,7 +53,8 @@ The table below shows what is includes in the block content section on each page
 |Page         |  Block content|
 |-------------|-----------------|
 |Home         |This page shows links to the different categories of products. There is also a banner and search function.|
-|Categories   |Each of the category pages show the different products relating to the category. These products include descriptions, price and option to purchase/ add to cart.|
+|Categories   |Each of the category pages show the different products relating to the category.|
+|Product Item |The products page includes descriptions, price and option to purchase/ add to cart.|
 |About Us |This page contains infomation regarding the owners of Omega Skate.|
 |Deliveries and Returns |This page contains information regarding deliveries and returns.|
 |Contact Us   |The contact page contains information on ways the store can be contacted. It also has a form that can be used to message the store. |   
@@ -79,11 +84,10 @@ Also contains social media links.
 ### Extras
 
 #### Features left to implement
-* Use of discount or promo codes in checkout.
 * Add an order tracking page.
 * Add a star rating system to the products along with review options.
 * A wishlist option
-* Dropdowns for multiple sizes of decks.
+* Dropdowns for multiple sizes of decks, wheels and trucks.
 ---
 
 ### Expansion strategy
