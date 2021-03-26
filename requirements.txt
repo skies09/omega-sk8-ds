@@ -22,7 +22,7 @@ django-forms-bootstrap==3.1.0
 django-ses==0.8.12
 django-storages==1.7.1
 django-tinymce4-lite==1.7.5
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docraptor==1.2.0
 docutils==0.14
