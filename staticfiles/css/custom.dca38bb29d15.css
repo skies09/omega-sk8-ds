@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Luckiest+Guy|Permanent+Marker|Rock+Salt');
+
+/*h styles*/
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 60px;
+    color: #000000;
+    text-shadow: 6px 6px 6px #2ab0c1;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #272a8a;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+}
+
+/*navbar*/
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-inverse {
+    height: 125px;
+    border-width: 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar .navbar-brand {
+    color: #24dbf3;
+    text-shadow: 4px 4px 4px #000000;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-item {
+    color: #000000;
+    text-shadow: 2px 2px 2px #ffffff;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    margin:5px;
+}
+
+.dropdown-menu{
+  background-color:  #2ab0c1;
+  top:35%;
+  margin:6px;
+}
+
+.navbar .glyphicon{
+ font-size:25px;
+ color:  #24dbf3;
+ text-shadow: 2px 2px 2px #000000;
+ padding-top:15px;
+ padding-left: 10px;
+}
+
+
+.sale-banner p{
+    text-align: center;
+    font-size:18px;
+    color:#000000;
+    text-shadow: 2px 2px 2px #24dbf3;
+    font-family: 'Permanent Marker', cursive;
+    padding:5px;
+    border-bottom: 1px solid #00bcd463;
+}
+
+.introduction-container {
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-banner{
+    padding-bottom:15px;
+    border-bottom: 1px solid #00bcd463;
+    display:flex;
+}
+
+.navbar-banner a{
+    color: #000000;
+    text-shadow: 2px 2px 2px #2ab0c1;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: left;
+}
+.navbar-banner li{
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.navbar-toggle{
+    background-color: black;
+    margin-right:500px;
+    margin-left:15px;
+}
+.icon-bar{
+    background-color:#2ab0c1;
+}
+
+/*search bar*/
+
+.search-bar-display{
+    padding:10px;
+    float:right;
+}
+
+.search-bar{
+    max-width: 50%;
+    margin:5px;
+    background:#ffffff45;
+}
+
+.search-btn{
+    margin:5px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid #24dbf3;
+    color:#000000;
+}
+
+/*form*/
+
+form {
+    width: 50%;
+    padding-left: 10px;
+}
+
+/*footer*/
+
+footer {
+    position:absolute;
+    width:100%;
+    margin:0 auto;
+    border-top: 1px solid #00bcd463;
+}
+
+.footer-list a{  
+    color: #000000;
+    text-shadow: 2px 2px 2px #2ab0c1;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer-list li {
+    list-style-type: none;
+    padding:2px;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+    padding: 1em;
+
+}
+
+.social-links li a i {
+    width: 1em;
+    font-size: 26px;
+    color: #000000;
+    text-shadow: 2px 2px 2px #2ab0c1;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-right:1em;
+}
+
+.social-links li a i:hover {
+    background: #002966;
+}
+
+/*block content*/
+
+.block-content{
+    min-height: calc(100vh - 344px);
+    margin-bottom:5px;
+}
+
+/*profile page*/
+
+.profile-email{
+    padding:20px;
+}
+
+/*home page*/
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    line-height: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:150px;
+    width:auto;
+    margin-top:5px;
+}
+
+.category-panel {
+    margin-top: 10px;
+    border: 3px solid #000000;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*chatbot*/
+#open-button {
+    position:absolute;
+    float:right;
+    cursor: pointer;
+    opacity: 0.7;
+    z-index: 9; 
+    margin:8px;
+  }
+  
+  .chat-popup {
+    display: none;
+    bottom: 0;
+    right: 15px;
+    border: 2px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  .form-container {
+    padding-top:50px;
+    padding-bottom: 10px;
+  }
+
+.chat-question, .chat-answer{
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 14px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.chat-help{
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 12px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+main{
+    padding-left:20px;
+}
+.askbar{
+    padding:7px;
+}
+
+/*about page*/
+
+.about-us{
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+    padding-bottom:25px;
+    border-bottom: 1px solid #00bcd463;
+}
+
+.about-us-header{
+    padding-top:20px;
+    font-size:18px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    color: #000000; 
+}
+.meet-team{
+    border-top: 1px solid #00bcd463;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.meet-team-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:170px;
+    width:auto;
+    border: 2px solid #000000;
+}
+
+/*deliveries page*/
+
+.paragraph-header{
+    font-size:18px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    color: #000000;
+
+}
+
+/*contact page*/
+form {
+    width: 100%;
+}
+
+.form-control{
+   padding-left: 10px;
+}
+
+.contact-list li{
+    list-style-type: none;
+    padding:2px;
+}
+
+.contact-list span{
+    padding:8px;
+    font-size:15px;
+}
+
+/*faqs page*/
+
+.plus-btn{
+    background-color: #ffffff00;
+    float:right;
+    border: none;
+}
+
+.questions{
+    font-size:16px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000; 
+}
+
+/*setup page*/
+
+.deck-size-guide{
+    padding-top:-5px;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+th{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+  }
+td{
+    border: 1px solid black;
+    text-align:center;
+}
+
+.part-title{
+    text-decoration: underline;
+}
+
+.info-photo{
+    height:10em;
+    width:23em;
+}
+
+/*blog*/
+
+.blog-content{
+    padding:20px;
+    border-top: 1px solid #00bcd463;
+    border-bottom: 1px solid #00bcd463;
+}
+
+.single-blog-content{
+    padding:40px;
+}
+
+.post-image{
+    width: auto;
+    height: 250px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*products*/
+
+.row.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.panel-body {
+    height: 100%;
+}
+
+
+.product-image{
+    width: 150px;
+    height: 150px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.product-price{
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000; 
+}
+
+/*product detail page*/
+
+.single-product{
+    margin-top:25px;
+}
+
+.single-product-image{
+    width: auto;
+    height: 250px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.single-product-name{
+    font-size: 28px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color:  #000000;
+}
+
+.product-description {
+    padding-top:2em;
+    font-size: 16px;
+}
+
+.info-btn{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid #24dbf3;
+    color:#000000;
+}
+
+/*cart page*/
+
+.cart-product-name{
+    font-size: 1em;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color:  #000000;
+}
+.input-group{
+    margin-bottom:5px;
+    margin-top:5px;
+    max-width:95%;
+}
+
+.input-group-addon{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    border:1px solid #24dbf3;
+    color:#000000;
+}
+
+.total-section{
+    padding:15px;
+    padding-left: 35px;
+}
+
+.total-section p{
+    color: #000000;
+    text-shadow: 2px 2px 2px #2ab0c1;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: left;   
+}
+.coupon-form{
+    padding-top:15px;
+}
+
+/*checkout section*/
+
+#payment-form{
+    padding-top:25px;
+}
+
+
+
+
+
+
+
+
